@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
        RecyclerView recyclerView;
         public static String BASE_URL = "https://api.themoviedb.org";
         public static int PAGE = 1;
-        public static String API_KEY = "648a59eca4f3fd6ec718ed097da52f2b";
+        //TODO ENTER YOUR APIKEY
+        public static String API_KEY = "";
         public static String LANGUAGE = "en-US";
         public static String CATEGORY = "popular";
         Spinner category;
