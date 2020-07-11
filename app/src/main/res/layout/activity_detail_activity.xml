@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.project2_movies.Detail_activity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/movie_thumbnail"
+                android:layout_gravity="center"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EDEBEB" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="4dp"
+                android:textSize="40dp"
+                android:id="@+id/title_main"
+                android:textColor="#2d2d2d"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Movie Plot"
+                android:textColor="#2d2d2d"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:padding="4dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/description"
+                android:background="#EADDDD"
+                android:textColor="#2d2d2d"
+                android:padding="4dp"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+  <LinearLayout
+      android:layout_width="350dp"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Release Date"
+                android:textSize="25sp"
+                android:textColor="#2d2d2d"
+                android:layout_weight="1"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_marginLeft="2dp"
+                android:id="@+id/release_date"
+                android:textSize="22sp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+  </LinearLayout>
+ <LinearLayout
+     android:orientation="horizontal"
+     android:layout_marginTop="10dp"
+     android:layout_width="200dp"
+     android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Ratings"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#2d2d2d"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/ratings"
+                android:textSize="22sp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+  </LinearLayout>
+
+        </LinearLayout>
+
+</ScrollView>
